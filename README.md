@@ -1,29 +1,25 @@
-# Foundation Compass Template
+# Dance with Jasmine redesign
 
-The easiest way to get started with Foundation + Compass.
+Really this is just me getting used to SCSS and GIT
 
 ## Requirements
-
+  * Git
   * Ruby 1.9+
   * [Node.js](http://nodejs.org)
   * [compass](http://compass-style.org/): `gem install compass`
   * [bower](http://bower.io): `npm install bower -g`
 
-## Quickstart
+## Tips
 
-  * [Download this starter compass project and unzip it](https://github.com/zurb/foundation-compass-template/archive/master.zip)
-  * Run `bower install` to install the latest version of Foundation
+  * Leave bower-components/stylesheets alone. Edits in _settings.scss and _apps.scss
+  * Checkout CSS sourcemaps
   
-Then when you're working on your project, just run the following command:
+Keep an eye on changes with Compass- just run the following command:
 
-```bash
 bundle exec compass watch
-```
+
 
 ## Upgrading
+  * Run `bower update` to keep dependencies up to date
 
-If you'd like to upgrade to a newer version of Foundation down the road just run:
 
-```bash
-bower update
-```
