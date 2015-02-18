@@ -79,9 +79,9 @@ $include-html-global-classes: $include-html-classes;
 $include-html-grid-classes: $include-html-classes;
 $include-xl-html-grid-classes: false;
 
-$row-width: rem-calc(1100);
+$row-width: rem-calc(1200);
 $total-columns: 12;
-$column-gutter: rem-calc(30);
+$column-gutter: rem-calc(35);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -95,25 +95,25 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $font-weight-normal: normal;
 $font-weight-bold: bold;
 
-$white       : hsl(0, 0%, 100%);
-$ghost       : hsl(0, 0%, 98%);
-$snow        : hsl(0, 0%, 98%);
-$vapor       : hsl(0, 0%, 96%);
-$white-smoke : hsl(0, 0%, 96%);
-$silver      : hsl(0, 0%, 94%);
-$smoke       : hsl(0, 0%, 93%);
-$gainsboro   : hsl(0, 0%, 87%);
-$iron        : hsl(0, 0%, 80%);
-$base        : hsl(0, 0%, 67%);
-$aluminum    : hsl(0, 0%, 60%);
-$jumbo       : hsl(0, 0%, 53%);
-$monsoon     : hsl(0, 0%, 47%);
-$steel       : hsl(0, 0%, 40%);
-$charcoal    : hsl(0, 0%, 33%);
-$tuatara     : hsl(0, 0%, 27%);
-$oil         : hsl(0, 0%, 20%);
-$jet         : hsl(0, 0%, 13%);
-$black       : hsl(0, 0%, 0%);
+$white       : hsl(226, 82%, 100%);
+$ghost       : hsl(226, 82%, 98%);
+$snow        : hsl(226, 82%, 98%);
+$vapor       : hsl(226, 82%, 96%);
+$white-smoke : hsl(226, 82%, 96%);
+$silver      : hsl(226, 82%, 94%);
+$smoke       : hsl(226, 82%, 93%);
+$gainsboro   : hsl(226, 82%, 87%);
+$iron        : hsl(226, 82%, 80%);
+$base        : hsl(226, 82%, 36%);
+$aluminum    : hsl(226, 82%, 60%);
+$jumbo       : hsl(226, 82%, 53%);
+$monsoon     : hsl(226, 82%, 47%);
+$steel       : hsl(226, 82%, 40%);
+$charcoal    : hsl(226, 82%, 33%);
+$tuatara     : hsl(226, 82%, 27%);
+$oil         : hsl(226, 82%, 20%);
+$jet         : hsl(226, 82%, 13%);
+$black       : hsl(226, 82%, 0%);
 $papyrus     : hsl(45, 100%, 78%);
 
 // We use these as default colors throughout

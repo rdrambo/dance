@@ -1,6 +1,6 @@
 @import "settings";
 @import "foundation";
-@import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Cinzel+Decorative|Pontano+Sans|Amaranth);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans|Cinzel+Decorative|Pontano+Sans);
 .title {
 	font-family: "Cinzel Decorative";
 	text-transform: uppercase;
@@ -30,7 +30,7 @@
 }
 
 #logo {
-	border-radius: 1000px;
+	border-radius: $global-rounded;
 }
 
 // Or selectively include components
