@@ -79,9 +79,9 @@ $include-html-global-classes: $include-html-classes;
 $include-html-grid-classes: $include-html-classes;
 $include-xl-html-grid-classes: false;
 
-$row-width: rem-calc(1100);
+$row-width: rem-calc(1200);
 $total-columns: 12;
-$column-gutter: rem-calc(30);
+$column-gutter: rem-calc(35);
 
 // c. Global
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -95,34 +95,34 @@ $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
 $font-weight-normal: normal;
 $font-weight-bold: bold;
 
-$white       : #FFFFFF;
-$ghost       : #FAFAFA;
-$snow        : #F9F9F9;
-$vapor       : #F6F6F6;
-$white-smoke : #F5F5F5;
-$silver      : #EFEFEF;
-$smoke       : #EEEEEE;
-$gainsboro   : #DDDDDD;
-$iron        : #CCCCCC;
-$base        : #AAAAAA;
-$aluminum    : #999999;
-$jumbo       : #888888;
-$monsoon     : #777777;
-$steel       : #666666;
-$charcoal    : #555555;
-$tuatara     : #444444;
-$oil         : #333333;
-$jet         : #222222;
-$black       : #000000;
-$papyrus     : #FFE490;
+$white       : hsl(226, 82%, 100%);
+$ghost       : hsl(226, 82%, 98%);
+$snow        : hsl(226, 82%, 98%);
+$vapor       : hsl(226, 82%, 96%);
+$white-smoke : hsl(226, 82%, 96%);
+$silver      : hsl(226, 82%, 94%);
+$smoke       : hsl(226, 82%, 93%);
+$gainsboro   : hsl(226, 82%, 87%);
+$iron        : hsl(226, 82%, 80%);
+$base        : hsl(226, 82%, 36%);
+$aluminum    : hsl(226, 82%, 60%);
+$jumbo       : hsl(226, 82%, 53%);
+$monsoon     : hsl(226, 82%, 47%);
+$steel       : hsl(226, 82%, 40%);
+$charcoal    : hsl(226, 82%, 33%);
+$tuatara     : hsl(226, 82%, 27%);
+$oil         : hsl(226, 82%, 20%);
+$jet         : hsl(226, 82%, 13%);
+$black       : hsl(226, 82%, 0%);
+$papyrus     : hsl(45, 100%, 78%);
 
 // We use these as default colors throughout
-$primary-color: #1034A6;
-$secondary-color: #B34123;
-$alert-color: #660709;
-$success-color: #209ECF;
-$warning-color: #E89F03;
-$info-color: #a0d3e8;
+$primary-color: hsl(226, 82%, 36%);
+$secondary-color: hsl(12, 67%, 42%);
+$alert-color: hsl(359, 87%, 21%);
+$success-color: hsl(197, 73%, 47%);
+$warning-color: hsl(41, 97%, 46%);
+$info-color: hsl(197, 61%, 77%);
 
 // We use these to control various global styles
 $body-bg: $ghost;
@@ -490,7 +490,7 @@ $include-html-clearing-classes: $include-html-classes;
 // We use these to set the background colors for parts of Clearing.
 $clearing-bg: $oil;
 $clearing-caption-bg: $clearing-bg;
-$clearing-carousel-bg: rgba(51,51,51,0.8);
+$clearing-carousel-bg: hsla(0, 0%, 20%, 0.8);
 $clearing-img-bg: $clearing-bg;
 
 // We use these to style the close button
@@ -510,7 +510,7 @@ $clearing-caption-padding: 10px 30px 20px;
 $clearing-active-img-height: 85%;
 $clearing-carousel-height: 120px;
 $clearing-carousel-thumb-width: 120px;
-$clearing-carousel-thumb-active-border: 1px solid rgb(255,255,255);
+$clearing-carousel-thumb-active-border: 1px solid hsl(0, 0%, 100%);
 
 // 08. Dropdown
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -632,7 +632,7 @@ $form-label-font-color: scale-color($black, $lightness: 30%);
 $form-label-small-transform: capitalize;
 $form-label-bottom-margin: 0;
 $input-font-family: inherit;
-$input-font-color: rgba(0,0,0,0.75);
+$input-font-color: hsla(0, 0%, 0%, 0.75);
 $input-font-size: rem-calc(14);
 $input-bg-color: $white;
 $input-focus-bg-color: scale-color($white, $lightness: -2%);
@@ -643,7 +643,7 @@ $input-border-width: 1px;
 $input-border-radius: $global-radius;
 $input-disabled-bg: $gainsboro;
 $input-disabled-cursor: $cursor-default-value;
-$input-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+$input-box-shadow: inset 0 1px 2px hsla(0, 0%, 0%, 0.1);
 $input-include-glowing-effect: true;
 
 // We use these to style the fieldset border and spacing.
@@ -764,7 +764,7 @@ $joyride-tip-close-size: 24px;
 $joyride-tip-close-weight: $font-weight-normal;
 
 // When Joyride is filling the screen, we use this style for the bg
-$joyride-screenfill: rgba(0,0,0,0.5);
+$joyride-screenfill: hsla(0, 0%, 0%, 0.5);
 
 // 15. Keystrokes
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -855,7 +855,7 @@ $off-canvas-label-margin:0;
 $off-canvas-link-padding: rem-calc(10, 15);
 $off-canvas-link-color: rgba($white, .7);
 $off-canvas-link-border-bottom: 1px solid scale-color($off-canvas-bg, $lightness: -25%);
-$off-canvas-back-bg: #444;
+$off-canvas-back-bg: hsl(0, 0%, 27%);
 $off-canvas-back-border-top: $off-canvas-label-border-top;
 $off-canvas-back-border-bottom: $off-canvas-label-border-bottom;
 $off-canvas-back-hover-bg: scale-color($off-canvas-back-bg, $lightness: -30%);
@@ -894,7 +894,7 @@ $include-html-orbit-classes: $include-html-classes;
 
 // We use these to control the caption styles
 $orbit-container-bg: none;
-$orbit-caption-bg: rgba(51,51,51, .8);
+$orbit-caption-bg: hsla(0, 0%, 20%, 0.8);
 $orbit-caption-font-color: $white;
 $orbit-caption-font-size: rem-calc(14);
 $orbit-caption-position: "bottom"; // Supported values: "bottom", "under"
@@ -903,12 +903,12 @@ $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
 $orbit-nav-bg: transparent;
-$orbit-nav-bg-hover: rgba(0,0,0,0.3);
+$orbit-nav-bg-hover: hsla(0, 0%, 0%, 0.3);
 $orbit-nav-arrow-color: $white;
 $orbit-nav-arrow-color-hover: $white;
 
 // We use these to control the timer styles
-$orbit-timer-bg: rgba(255,255,255,0.3);
+$orbit-timer-bg: hsla(0, 0%, 100%, 0.3);
 $orbit-timer-show-progress-bar: true;
 
 // We use these to control the bullet nav styles
@@ -917,7 +917,7 @@ $orbit-bullet-nav-color-active: $aluminum;
 $orbit-bullet-radius: rem-calc(9);
 
 // We use these to controls the style of slide numbers
-$orbit-slide-number-bg: rgba(0,0,0,0);
+$orbit-slide-number-bg: hsla(0, 0%, 0%, 0);
 $orbit-slide-number-font-color: $white;
 $orbit-slide-number-padding: rem-calc(5);
 
@@ -1186,7 +1186,7 @@ $include-html-button-classes: $include-html-classes;
 $split-button-function-factor: 10%;
 $split-button-pip-color: $white;
 $split-button-pip-color-alt: $oil;
-$split-button-active-bg-tint: rgba(0,0,0,0.1);
+$split-button-active-bg-tint: hsla(0, 0%, 0%, 0.1);
 
 // We use these to control tiny split buttons
 $split-button-padding-tny: $button-pip-tny * 10;

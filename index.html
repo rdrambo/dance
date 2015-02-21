@@ -29,6 +29,11 @@
 			<h4>This is a content section.</h4>
 			<div class="row">
 				<div class="large-6 columns">
+					<div data-interchange="[small.html, (small)], [medium.html, (medium)], {large.html, (large)]">
+						<div data-alert class="alert-box secondary radius">
+							This is the default content. <a href="#" class="close">&times;</a>
+						</div>
+					</div>
 					<p>Dance with Jasmine seeks to promote the dances of the Middle East and North Africa (commonly referred to as bellydancing) to the Memphis, TN and surrounding communities. Styles studied and performed by the school include (but are not limited to) classic cabaret, gypsy, and folk dances from Egypt, Lebanon, Morocco, Algeria, Tunisia, Turkey, Greece, as well as Spanish and Indian fusion styles.</p>
 				</div>
 				<div class="large-6 columns">
@@ -72,5 +77,9 @@
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/foundation/js/foundation.min.js"></script>
 	<script src="js/app.js"></script>
+	<script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+	<script>
+		$(document).foundation('interchange', 'reflow');
+	</script>
 </body>
 </html>
