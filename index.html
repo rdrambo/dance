@@ -29,7 +29,7 @@
 			<h4>This is a content section.</h4>
 			<div class="row">
 				<div class="large-6 columns">
-					<div data-interchange="[interchange-small.html, (small)], [interchange-medium.html, (medium)], [interchange-large.html, (large)]">
+					<div data-interchange="[small.html, (small)], [medium.html, (medium)], {large.html, (large)]">
 						<div data-alert class="alert-box secondary radius">
 							This is the default content. <a href="#" class="close">&times;</a>
 						</div>
@@ -76,7 +76,10 @@
 
 	<script src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script src="bower_components/foundation/js/foundation.min.js"></script>
-	<script src="js/foundation/foundation.interchange.js"></script>
 	<script src="js/app.js"></script>
+	<script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+	<script>
+		$(document).foundation('interchange', 'reflow');
+	</script>
 </body>
 </html>
